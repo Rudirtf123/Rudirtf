@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: id
+  - name: ID
     server: ava.game.naver.com
     port: 443
     type: trojan
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: min.biz.id
     udp: true
-  - name: simen sg
+  - name: SIMEN SG
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -85,8 +85,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
+      - ID
+      - SIMEN SG
       - AKUN3
 
   - name: MIX-X
@@ -94,8 +94,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
+      - ID
+      - SIMEN SG
       - AKUN3
       
   - name: IKLAN
